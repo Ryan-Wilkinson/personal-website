@@ -40,7 +40,6 @@ export default {
 }
 </script>
 <style lang="scss">
-@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");
 
 html,
 body {
@@ -50,7 +49,6 @@ body {
 }
 
 body {
-  font-family: "Roboto Slab", serif;
   color: #000;
   margin: 0;
   padding: 0;
