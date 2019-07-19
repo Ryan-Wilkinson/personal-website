@@ -1,4 +1,8 @@
-# personal-website
+# Personal Website
+
+## Just a small vue spa for my portfolio.
+
+-------------------------------------------------
 
 ## Project setup
 ```
