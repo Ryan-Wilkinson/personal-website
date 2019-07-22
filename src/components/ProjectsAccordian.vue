@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="accordian-container">
     <h1>My Projects</h1>
     <div class="swiper-container">
       <div class="swiper-wrapper">
@@ -41,33 +41,24 @@ export default {
 </script>
 <style lang="scss">
 
-html,
-body {
-  position: relative;
+.accordian-container {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
   width: 100%;
-  height: 100%;
 }
 
-body {
-  color: #000;
-  margin: 0;
-  padding: 0;
-}
-
-.heading {
-  background: white;
-  height: 5%;
-  margin: 10px;
-  padding: 10px;
+h1 {
+  align-self: center;
 }
 
 .swiper-container {
   width: 100%;
   height: 90%;
 }
+
 .swiper-slide {
   text-align: center;
-  background: #fff;
   /* Center slide text vertically */
   display: flex;
   justify-content: center;
@@ -76,7 +67,6 @@ body {
 
 // Image Accordions General
 .container-general {
-  padding: 75px 0;
   margin: 0 auto;
   width: 800px;
   .gallery-wrap {
@@ -102,19 +92,19 @@ body {
 .wrap-effect-1 {
   .item {
     &:first-of-type {
-      background-image: url("https://cdn.dribbble.com/users/729829/screenshots/4185141/galshir-cactus-coffee.png");
+      background-image: url('../../public/images/hangman.jpg');
     }
     &:nth-of-type(2) {
-      background-image: url("https://cdn.dribbble.com/users/729829/screenshots/6146136/galshir-tea-biscuit_2x.png");
+      background-image: url('../../public/images/mountacular.jpg');
     }
     &:nth-of-type(3) {
-      background-image: url("https://cdn.dribbble.com/users/729829/screenshots/4473482/galshir-dog-walker.gif");
+      background-image: url('../../public/images/playbillify.jpg');
     }
     &:nth-of-type(4) {
-      background-image: url("https://cdn.dribbble.com/users/729829/screenshots/5743606/gal-shir-scooter_2x.png");
+      background-image: url('../../public/images/goldfish.jpg');
     }
     &:last-of-type {
-      background-image: url("https://cdn.dribbble.com/users/729829/screenshots/4738104/galshir-storytime.png");
+      background-image: url('../../public/images/citi2citi.jpg');
     }
   }
 }
