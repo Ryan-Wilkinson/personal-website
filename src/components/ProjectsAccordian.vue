@@ -19,7 +19,7 @@
   </div>
 </template>
 <script>
-import Swiper from 'swiper';
+import Swiper from 'swiper'
 
 export default {
   name: 'ProjectsAccordian',
@@ -40,7 +40,6 @@ export default {
 }
 </script>
 <style lang="scss">
-
 .accordian-container {
   display: flex;
   flex-direction: column;
@@ -120,7 +119,7 @@ h1 {
   padding: 10px;
   &:after {
     background: #38ef7d;
-    content: "";
+    content: '';
     height: 155px;
     left: -75px;
     opacity: 0.4;
