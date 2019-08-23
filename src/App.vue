@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-    <Header />
-    <ProjectsAccordian />
+    <div class="first-container">
+      <Header />
+      <ProjectsAccordian />
+    </div>
   </div>
 </template>
 
@@ -19,17 +21,12 @@ export default {
 </script>
 
 <style>
-html {
+.first-container {
   display: flex;
   background-image: url('../public/images/fire.jpg');
   background-size: cover;
   justify-content: center;
-}
-
-body {
-  display: flex;
   flex-direction: column;
-  width: 100%;
 }
 
 </style>
