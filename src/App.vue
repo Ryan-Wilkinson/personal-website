@@ -10,7 +10,7 @@ import ProjectsAccordian from './components/ProjectsAccordian.vue'
 import Header from './components/Header.vue'
 
 export default {
-  name: 'app',
+  name: 'App',
   components: {
     ProjectsAccordian,
     Header
@@ -28,7 +28,7 @@ html {
 
 body {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   width: 100%;
 }
 
