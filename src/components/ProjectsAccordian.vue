@@ -6,11 +6,11 @@
         <div class="swiper-slide">
           <div class="container-general">
             <div class="gallery-wrap wrap-effect-1">
-              <div class="item"></div>
-              <div class="item"></div>
-              <div class="item"></div>
-              <div class="item"></div>
-              <div class="item"></div>
+              <div class="item" />
+              <div class="item" />
+              <div class="item" />
+              <div class="item" />
+              <div class="item" />
             </div>
           </div>
         </div>
@@ -27,7 +27,7 @@ export default {
     return {}
   },
   created() {
-    new Swiper('.swiper-container', {
+    Swiper('.swiper-container', {
       direction: 'vertical',
       mousewheel: {},
       effect: 'cube',
