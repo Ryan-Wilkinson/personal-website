@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <Header id="header" />
     <div class="first-section">
       <h1 class="my-name">
         Ryan Wilkinson
@@ -21,6 +22,7 @@
 </template>
 
 <script>
+import Header from './components/Header'
 import ProjectsAccordian from './components/ProjectsAccordian'
 import About from './components/About'
 import Experience from './components/Experience'
@@ -28,24 +30,26 @@ import Experience from './components/Experience'
 export default {
   name: 'App',
   components: {
+    Header,
     ProjectsAccordian,
     About,
+    Experience,
   },
 }
 </script>
 
-<style>
-body {
-  margin: 0;
-}
+<style scoped>
 html {
-  background-color: black;
   background-size: cover;
   justify-content: center;
   flex-direction: column;
   height: 100vh;
 }
+#header {
+  position: absolute;
+}
 .my-name {
+  margin: 0;
   color: white;
   align-self: center;
   font-family: 'avenir';

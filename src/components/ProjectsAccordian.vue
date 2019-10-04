@@ -1,6 +1,8 @@
 <template>
   <div class="accordian-container">
-    <h1>Personal Projects</h1>
+    <h1 class="title">
+      Personal Projects
+    </h1>
     <div class="swiper-container">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
@@ -40,7 +42,7 @@ export default {
   },
 }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 .accordian-container {
   display: flex;
   flex-direction: column;
@@ -49,7 +51,7 @@ export default {
   padding-bottom: 30px;
 }
 
-h1 {
+.title {
   color: black;
   align-self: center;
   font-size: 3em;
