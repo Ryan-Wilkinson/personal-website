@@ -1,6 +1,6 @@
 <template>
-  <div class="main">
-    <div class="image-container" />
+  <div class="about-container">
+    <img src="../../public/images/FunPlus_Phoenix_logo.png">
     <div class="text">
       Lorem ipsum dolor amet hella paleo retro, normcore YOLO roof party shabby
       chic edison bulb kinfolk etsy. Vape chartreuse fashion axe, flannel pokpok
@@ -21,4 +21,21 @@
 export default {}
 </script>
 
-<style></style>
+<style>
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+img {
+  height: 15em;
+}
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 60%;
+  font-size: 1.5em;
+}
+</style>
