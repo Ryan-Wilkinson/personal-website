@@ -1,5 +1,6 @@
 <template>
   <div class="accordian-container">
+    <h1>Personal Projects</h1>
     <div class="swiper-container">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
@@ -49,7 +50,10 @@ export default {
 }
 
 h1 {
+  color: black;
   align-self: center;
+  font-size: 3em;
+  margin-top: 0;
 }
 
 .swiper-container {

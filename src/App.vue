@@ -9,10 +9,9 @@
       <About />
     </div>
     <div class="third-section">
-      Section 3
+      <Experience />
     </div>
     <div class="fourth-section">
-      <h2>Personal Projects</h2>
       <ProjectsAccordian />
     </div>
     <div class="fifth-section">
@@ -24,6 +23,7 @@
 <script>
 import ProjectsAccordian from './components/ProjectsAccordian'
 import About from './components/About'
+import Experience from './components/Experience'
 
 export default {
   name: 'App',
@@ -44,10 +44,6 @@ html {
   justify-content: center;
   flex-direction: column;
   height: 100vh;
-}
-h2 {
-  font-size: 3em;
-  margin-top: 0;
 }
 .my-name {
   color: white;
