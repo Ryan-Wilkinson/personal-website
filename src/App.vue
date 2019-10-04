@@ -4,7 +4,6 @@
       <h1 class="my-name">
         Ryan Wilkinson
       </h1>
-      <!-- <ProjectsAccordian /> -->
     </div>
     <div class="second-section">
       <About />
@@ -13,7 +12,11 @@
       Section 3
     </div>
     <div class="fourth-section">
-      Section 4
+      <h2>Personal Projects</h2>
+      <ProjectsAccordian />
+    </div>
+    <div class="fifth-section">
+      Section 5
     </div>
   </div>
 </template>
@@ -41,6 +44,10 @@ html {
   justify-content: center;
   flex-direction: column;
   height: 100vh;
+}
+h2 {
+  font-size: 3em;
+  margin-top: 0;
 }
 .my-name {
   color: white;
@@ -78,6 +85,14 @@ html {
 }
 .fourth-section {
   background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.fifth-section {
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;

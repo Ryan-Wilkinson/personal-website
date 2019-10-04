@@ -1,6 +1,5 @@
 <template>
   <div class="accordian-container">
-    <h1>My Projects</h1>
     <div class="swiper-container">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
@@ -46,6 +45,7 @@ export default {
   flex-direction: column;
   color: #fff;
   width: 100%;
+  padding-bottom: 30px;
 }
 
 h1 {
