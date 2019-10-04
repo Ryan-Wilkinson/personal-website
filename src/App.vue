@@ -55,10 +55,16 @@ html {
   padding-left: 0.5em;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
+@media only screen and (max-device-width: 1366px) {
+  .first-section {
+    background-attachment: scroll;
+  }
+}
 .first-section {
   display: flex;
   background-image: url('../public/images/fire.jpg');
   background-size: cover;
+  background-attachment: fixed;
   justify-content: center;
   flex-direction: column;
   height: 100vh;
