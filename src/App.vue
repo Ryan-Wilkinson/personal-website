@@ -8,6 +8,7 @@
       <AboutMe />
     </div>
     <div class="third-section">Section 3</div>
+    <div class="fourth-section">Section 4</div>
   </div>
 </template>
 
@@ -63,6 +64,14 @@ html {
 }
 .third-section {
   background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.fourth-section {
+  background-color: green;
   display: flex;
   justify-content: center;
   align-items: center;
