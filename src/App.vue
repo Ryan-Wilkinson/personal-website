@@ -1,14 +1,20 @@
 <template>
   <div id="app">
     <div class="first-section">
-      <h1 class="my-name">Ryan Wilkinson</h1>
+      <h1 class="my-name">
+        Ryan Wilkinson
+      </h1>
       <!-- <ProjectsAccordian /> -->
     </div>
     <div class="second-section">
       <AboutMe />
     </div>
-    <div class="third-section">Section 3</div>
-    <div class="fourth-section">Section 4</div>
+    <div class="third-section">
+      Section 3
+    </div>
+    <div class="fourth-section">
+      Section 4
+    </div>
   </div>
 </template>
 
