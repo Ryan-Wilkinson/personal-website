@@ -17,7 +17,7 @@
     "semi": ["error", "never"],
     "semi-style": ["error", "first"],
     "quotes": ["error", "single", { "avoidEscape": true }],
-    "comma-dangle": ["error", "never"],
+    "comma-dangle": ["error", "always"],
     "one-var": ["error", "never"],
     "one-var-declaration-per-line": ["error", "always"],
     "space-before-function-paren": "off",

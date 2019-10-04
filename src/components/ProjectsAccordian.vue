@@ -34,10 +34,10 @@ export default {
       effect: 'cube',
       keyboard: {
         enabled: true,
-        onlyInViewport: false
-      }
+        onlyInViewport: false,
+      },
     })
-  }
+  },
 }
 </script>
 <style lang="scss">
