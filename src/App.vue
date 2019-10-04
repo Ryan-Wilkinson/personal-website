@@ -7,7 +7,7 @@
       <!-- <ProjectsAccordian /> -->
     </div>
     <div class="second-section">
-      <AboutMe />
+      <About />
     </div>
     <div class="third-section">
       Section 3
@@ -20,13 +20,13 @@
 
 <script>
 import ProjectsAccordian from './components/ProjectsAccordian'
-import AboutMe from './components/AboutMe'
+import About from './components/About'
 
 export default {
   name: 'App',
   components: {
     ProjectsAccordian,
-    AboutMe,
+    About,
   },
 }
 </script>
