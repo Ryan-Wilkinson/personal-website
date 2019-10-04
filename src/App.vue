@@ -4,18 +4,22 @@
       <h1 class="my-name">Ryan Wilkinson</h1>
       <!-- <ProjectsAccordian /> -->
     </div>
-    <div class="second-section">Section 2</div>
+    <div class="second-section">
+      <AboutMe />
+    </div>
     <div class="third-section">Section 3</div>
   </div>
 </template>
 
 <script>
-import ProjectsAccordian from './components/ProjectsAccordian.vue'
+import ProjectsAccordian from './components/ProjectsAccordian'
+import AboutMe from './components/AboutMe'
 
 export default {
   name: 'App',
   components: {
     ProjectsAccordian,
+    AboutMe,
   },
 }
 </script>
@@ -53,6 +57,7 @@ html {
   display: flex;
   background-color: yellow;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   height: 100vh;
 }
@@ -60,6 +65,7 @@ html {
   background-color: lightblue;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   height: 100vh;
 }
