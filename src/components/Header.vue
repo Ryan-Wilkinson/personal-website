@@ -5,11 +5,10 @@
       src="../../public/images/FunPlus_Phoenix_logo.png"
     >
     <div class="nav-button-wrapper">
-      <div>/- ONE - /</div>
-      <div>/- TWO - /</div>
-      <div>/- THREE - /</div>
-      <div>/- FOUR - /</div>
-      <div>/- FIVE - /</div>
+      <div>/- About - /</div>
+      <div>/- Work - /</div>
+      <div>/- Projects - /</div>
+      <div>/- TBD Game - /</div>
     </div>
   </div>
 </template>
@@ -30,6 +29,8 @@ export default {}
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   display: flex;
+  justify-content: space-between;
+  width: 25%;
   padding-right: 50px;
 }
 .header-icon {
