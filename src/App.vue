@@ -6,13 +6,13 @@
         Ryan Wilkinson
       </h1>
     </div>
-    <div class="second-section">
+    <div class="second-section about">
       <About />
     </div>
-    <div class="third-section">
+    <div class="third-section experience">
       <Experience />
     </div>
-    <div class="fourth-section">
+    <div class="fourth-section projects">
       <ProjectsAccordian />
     </div>
     <div class="fifth-section">

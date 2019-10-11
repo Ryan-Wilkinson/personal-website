@@ -5,16 +5,61 @@
       src="../../public/images/FunPlus_Phoenix_logo.png"
     >
     <div class="nav-button-wrapper">
-      <div>/- About - /</div>
-      <div>/- Work - /</div>
-      <div>/- Projects - /</div>
-      <div>/- TBD Game - /</div>
+      <div
+        href="#"
+        @click="scrollToAbout"
+      >
+        /- About - /
+      </div>
+      <div
+        href="#"
+        @click="scrollToExperience"
+      >
+        /- Experience - /
+      </div>
+      <div
+        href="#"
+        @click="scrollToProjects"
+      >
+        /- Projects - /
+      </div>
+      <div
+        href="#"
+        @click="scrollToTBD"
+      >
+        /- TBD Game - /
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {}
+  },
+  methods: {
+    scrollHandler(elm) {
+      elm.scrollIntoView({ behavior: 'smooth', block: 'center' })
+    },
+    scrollToAbout() {
+      const aboutView = document.getElementsByClassName('about')[0]
+      this.scrollHandler(aboutView)
+    },
+    scrollToExperience() {
+      const experienceView = document.getElementsByClassName('experience')[0]
+      this.scrollHandler(experienceView)
+    },
+    scrollToProjects() {
+      const projectsView = document.getElementsByClassName('projects')[0]
+      this.scrollHandler(projectsView)
+    },
+    scrollToTBD() {
+      const tbdView = document.getElementsByClassName('TBD')[0]
+      this.scrollHandler(tbdView)
+    },
+  },
+}
 </script>
 
 <style scoped>
@@ -30,7 +75,7 @@ export default {}
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   display: flex;
   justify-content: space-between;
-  width: 25%;
+  width: 30%;
   padding-right: 50px;
 }
 .header-icon {
