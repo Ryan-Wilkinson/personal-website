@@ -51,7 +51,7 @@ html {
 .my-name {
   margin: 0;
   color: white;
-  align-self: center;
+  text-align: center;
   font-family: 'avenir';
   font-weight: 100;
   letter-spacing: 0.5em;
@@ -72,14 +72,16 @@ html {
   justify-content: center;
   flex-direction: column;
   height: 100vh;
+  z-index: -1;
 }
 .second-section {
   display: flex;
-  background-color: yellow;
+  background-color: grey;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   height: 100vh;
+  z-index: 1;
 }
 .third-section {
   background-color: lightblue;
