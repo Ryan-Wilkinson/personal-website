@@ -1,6 +1,6 @@
 # Personal Website
 
-## Just a small vue spa for my portfolio.
+## Just a small vue for my portfolio.
 
 -------------------------------------------------
 
@@ -17,11 +17,6 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
-```
-
-### Run your tests
-```
-npm run test
 ```
 
 ### Lints and fixes files
