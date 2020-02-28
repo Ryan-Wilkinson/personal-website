@@ -2,32 +2,31 @@
   <div class="main-header-wrapper">
     <img
       class="header-icon"
-      src="../../public/images/FunPlus_Phoenix_logo.png"
     >
     <div class="nav-button-wrapper">
       <div
         href="#"
         @click="scrollToAbout"
       >
-        /- About - /
+        About
       </div>
       <div
         href="#"
         @click="scrollToExperience"
       >
-        /- Experience - /
+        Experience
       </div>
       <div
         href="#"
         @click="scrollToProjects"
       >
-        /- Projects - /
+        Projects
       </div>
       <div
         href="#"
         @click="scrollToTBD"
       >
-        /- TBD Game - /
+        TBD Game
       </div>
     </div>
   </div>
@@ -69,6 +68,8 @@ export default {
   align-items: center;
   width: 100%;
   justify-content: space-between;
+  /* background-color: black;
+  opacity: 1; */
 }
 .nav-button-wrapper {
   color: white;
@@ -81,5 +82,6 @@ export default {
 .header-icon {
   padding-left: 50px;
   height: 2em;
+  color: white;
 }
 </style>
