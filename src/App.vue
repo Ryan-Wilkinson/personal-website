@@ -66,7 +66,7 @@ html {
 }
 .first-section {
   display: flex;
-  background-image: url('../public/images/fire.jpg');
+  background-image: url('../public/images/main.jpg');
   background-size: cover;
   background-attachment: fixed;
   justify-content: center;
