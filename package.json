@@ -11,7 +11,7 @@
     "aws-sdk": "^2.562.0",
     "core-js": "^2.6.10",
     "es6-promise": "^4.2.8",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "readline": "^1.3.0",
     "sass": "^1.23.3",
     "sass-loader": "^7.3.1",
