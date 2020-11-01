@@ -6,7 +6,10 @@
         Ryan Wilkinson
       </h1>
     </div>
-    <div class="second-section about">
+    <div class="construction-section construction">
+      <Construction />
+    </div>
+    <!-- <div class="second-section about">
       <About />
     </div>
     <div class="third-section experience">
@@ -17,23 +20,25 @@
     </div>
     <div class="fifth-section">
       Section 5
-    </div>
+    </div> -->
   </div>
 </template>
 
 <script>
 import Header from './components/Header'
-import ProjectsAccordian from './components/ProjectsAccordian'
-import About from './components/About'
-import Experience from './components/Experience'
+// import ProjectsAccordian from './components/ProjectsAccordian'
+// import About from './components/About'
+// import Experience from './components/Experience'
+import Construction from './components/Construction'
 
 export default {
   name: 'App',
   components: {
     Header,
-    ProjectsAccordian,
-    About,
-    Experience,
+    // ProjectsAccordian,
+    // About,
+    // Experience,
+    Construction,
   },
 }
 </script>
@@ -65,6 +70,16 @@ html {
   }
 }
 .first-section {
+  display: flex;
+  background-image: url('../public/images/main.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  z-index: -1;
+}
+.construction-section{
   display: flex;
   background-image: url('../public/images/main.jpg');
   background-size: cover;
